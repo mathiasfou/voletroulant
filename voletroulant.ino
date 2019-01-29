@@ -146,7 +146,6 @@ void descendre() {
     digitalWrite(RELAY_Descendre, actif);
 }}
 void arreter() {
-    lastAction = millis();
     digitalWrite(RELAY_Descendre, inactif);
     digitalWrite(RELAY_Monter, inactif);
 }
